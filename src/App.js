@@ -5,20 +5,24 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div class="list-group-item">
+  <a href="#" class="list-group-item active">ACADEMIA </a> <button type="button" class="btn btn-default">
+  </button>
+  <a href="#" className="list-group-item" >Asignatura<button type="button" className="float-right btn-success ">   + AÑADIR</button>
+   <button type="button" class="float-right">  MODIFICAR</button>  </a> 
+
+  <a href="#" className=" list-group-item">Docente  <button type="button" className="float-right  btn-success">+ AÑADIR</button>
+   <button type="button"  class="float-right">  MODIFICAR</button></a>
+
+  <a href="#" className=" list-group-item">Estudiante  <button type="button" className="float-right btn-success">+ AÑADIR</button>
+   <button type="button" class="float-right">MODIFICAR</button></a>
+
+  <a href="#" className="list-group-item">Curso  <button type="button" className="float-right  btn-success">+ AÑADIR</button>
+   <button type="button" class="float-right">MODIFICAR</button></a>
+
+
+</div> 
+
     </div>
   );
 }
